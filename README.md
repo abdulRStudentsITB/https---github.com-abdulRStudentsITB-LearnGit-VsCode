@@ -14,3 +14,5 @@ command git restore --staged file : utk unstaged
 command git restore file : utk restore file versi sebelumnya
 
 command git log --oneline --graph --decorate --color : utk menampilkan log history yg lebih menarik
+
+command git mv file folder : utk memindahkan, akan distage perlu dicommit

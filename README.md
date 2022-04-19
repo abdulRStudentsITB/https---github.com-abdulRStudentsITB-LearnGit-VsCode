@@ -29,3 +29,5 @@ command git branch -D name : utk delete branch
 command git merge name-yg-mau-dimerge : kalo mau merge pindah dulu ke master, kalo misal konflik krn sama2 ngubah bagian file yg sama maka kontak dulu developer yg lain. Tinggal fix terus commit
 
 Tips : buat kalimat perintah utk comment git - sesuai dengan pedoman komunitas
+
+Workflow github : pull dulu agar file di local update dengan file github -> buat branch baru agar tidak mengacaukan master -> commit ke master -> push to branch origin-> compare and request utk ngecek apakah kodenya benar atau tidak, tambahkan judul dan komentar -> create pull request, apakah branch bisa dimerge dengan master -> tunggu hingga disetujui (bisa komentar di line code atau branch) -> kalo sudah disetujui, delete branch

@@ -20,3 +20,6 @@ command git revert id : utk mengembalikan ke id commit tersebut, tapi harus mena
 
 command git pull origin master
 command git push origin master
+
+command git branch name : utk membuat branch baru, harus dikasih nama
+command git checkout name : utk pindah ke branch tersebut, bisa dicek di git status

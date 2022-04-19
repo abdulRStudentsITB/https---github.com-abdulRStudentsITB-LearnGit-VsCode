@@ -25,3 +25,5 @@ command git branch name : utk membuat branch baru, harus dikasih nama
 command git checkout name : utk pindah ke branch tersebut, bisa dicek pake command git branch -a
 
 command git branch -D name : utk delete branch
+
+Tips : buat kalimat perintah utk comment git - sesuai dengan pedoman komunitas

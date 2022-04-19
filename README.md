@@ -25,6 +25,6 @@ command git branch name : utk membuat branch baru, harus dikasih nama
 command git checkout name : utk pindah ke branch tersebut, bisa dicek pake command git branch -a
 
 command git branch -D name : utk delete branch
-command git merge name-yg-mau-dimerge : kalo mau merge pindah dulu ke master
+command git merge name-yg-mau-dimerge : kalo mau merge pindah dulu ke master, kalo misal konflik krn sama2 ngubah bagian file yg sama maka kontak dulu developer yg lain. Tinggal fix terus commit
 
 Tips : buat kalimat perintah utk comment git - sesuai dengan pedoman komunitas

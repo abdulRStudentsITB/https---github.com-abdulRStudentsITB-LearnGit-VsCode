@@ -15,3 +15,8 @@ command git restore file : utk restore file versi sebelumnya
 
 command git log --oneline --graph --decorate --color : utk menampilkan log history yg lebih menarik
 command git revert id : utk mengembalikan ke id commit tersebut, tapi harus menambahkan comment dulu kalo di vscode
+
+### kalo mau menambahkan ke github di-pull dulu baru di-push biar tidak terjadi konflik dengan developer lain
+
+command git pull origin master
+command git push origin master

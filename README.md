@@ -20,7 +20,7 @@ command git revert id : utk mengembalikan ke id commit tersebut, tapi harus mena
 
 command git pull origin master
 command git push origin master : catatan aja origin itu bisa diganti dengan ssh sedangkan master bisa diganti dengan branch yg lain
-command git remote add origin ssh-url : buat alias agar lbh mudah ssh, nama origin itu default bisa diubah
+command git remote add origin ssh/url : buat alias agar lbh mudah ssh, nama origin itu default bisa diubah
 
 command git branch name : utk membuat branch baru, harus dikasih nama
 command git checkout name : utk pindah ke branch tersebut, bisa dicek pake command git branch -a

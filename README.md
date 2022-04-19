@@ -7,3 +7,4 @@ command git commit -m "comment" : utk commit apapun yg sudah disave
 command git commit -am "comment" : shortcut biar gak add modified file dulu
 
 command git add . : utk add semua file
+command git checkout -- file : utk restore versi sebelumnya

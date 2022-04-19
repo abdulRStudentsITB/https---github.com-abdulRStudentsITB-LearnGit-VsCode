@@ -12,3 +12,5 @@ command git checkout -- file : utk restore versi sebelumnya
 command git checkout : waktu dicoba gak bisa utk restore
 command git restore --staged file : utk unstaged
 command git restore file : utk restore file versi sebelumnya
+
+command git log --oneline --graph --decorate --color : utk menampilkan log history yg lebih menarik
